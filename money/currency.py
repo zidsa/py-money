@@ -164,7 +164,7 @@ class Currency(Enum):
     UYI = 'UYI'
     UYU = 'UYU'
     UZS = 'UZS'
-    VEF = 'VEF'
+    VES = 'VES'
     VND = 'VND'
     VUV = 'VUV'
     WST = 'WST'
@@ -1136,9 +1136,9 @@ class CurrencyHelper:
             'default_fraction_digits': 2,
             'sub_unit': 100,
         },
-        Currency.VEF: {
-            'display_name': 'Bolivar',
-            'numeric_code': 937,
+        Currency.VES: {
+            'display_name': 'Bolivar Soberano',
+            'numeric_code': 928,
             'default_fraction_digits': 2,
             'sub_unit': 100,
         },
